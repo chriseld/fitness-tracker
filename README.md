@@ -10,4 +10,4 @@ A simple fitness tracker that makes use of a mongoDB database
 ## Deployment
 
 The page repository can be found at [the GitHub page](https://github.com/chriseld/fitness-tracker).
-The deployed version of the page can be found at [GitHub Pages](https://chriseld.github.io/portfolio/).
+The deployed version of the page can be found at [GitHub Pages](https://salty-plains-27545.herokuapp.com/).
