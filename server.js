@@ -11,6 +11,8 @@ app.use(express.static("public"));
 
 const PORT = process.env.PORT || 8080;
 
+const db = require("./models");
+
 mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/fitness-tracker", { useNewUrlParser: true, useFindAndModify: false });
 
 (require("./controllers/html-routes.js"))(app);
